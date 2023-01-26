@@ -1,0 +1,101 @@
+@media screen and (max-width:1299px) {
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+    }
+    .aboutContent p{
+        font-size: 16px;
+    }
+    .aboutContent img{
+        width: 200px;
+        height: 200px;
+    }
+    .resume td:first-child{
+        padding: 20px 15px;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    .workContent img{
+        width:50%;
+        height: 120px;
+        object-fit: cover;
+    }
+    .contactBox{
+        margin: 0px auto;
+    }
+    footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .first{
+        height: auto;
+    }
+    .log{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .aboutContent img{
+        width: 250px;
+        height: 250px;
+    }
+    .second{
+        height:auto;
+    }
+    .work{
+        width: 100%;
+    }
+    .workContent img{
+        width:100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    #w3,#w4,#w5,#w6{
+        display: none;
+    }
+    .resume{
+        width: 100%;
+    }
+    .resume table{
+        margin-bottom: 100px;
+    }
+    .third{
+        height: auto;
+    }
+    .swing{
+       width: 100%;
+    }
+    .swing h1{
+        margin-bottom: 10px;
+    }
+    .swingBox{
+        margin-bottom: 200px;
+    }
+    .contact h1{
+        padding: 75px 40px 10px 55px;
+    }
+    .contact p{
+        padding: 10px 55px;
+    }
+    .contactBox{
+        position: relative;
+        top: 0px;
+        padding: 20px 20px;
+        background-color: white;
+        color: black;
+        width: 80%;
+        margin: 0px auto 150px auto;
+        box-sizing: border-box;
+    }
+    .contact{
+       width: 100%;
+       z-index: 2;
+    }
+}

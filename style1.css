@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first{
+    width: 1300px;
+    height: 700px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.log{
+    width: 50%;
+    background-color: black;
+    box-sizing: border-box;
+}
+.log h1{
+    text-align: center;
+    padding: 75px;
+    font-weight: 500;
+    color: white;
+}
+.logNavbar{
+    padding: 75px 0px;
+    box-sizing: border-box;
+}
+.logNavbar a{
+    display: block;
+    width: 97%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    margin: 0px auto;
+    text-decoration: none;
+    color: white;
+}
+.logNavbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.logNavbar a:nth-child(1):hover{
+    background-color: blue;
+    color: white;
+}
+.logNavbar a:nth-child(2):hover{
+    background-color: red;
+    color: white;
+}
+.logNavbar a:nth-child(3):hover{
+    background-color:darkgreen;
+    color: white;
+}
+.logNavbar a:nth-child(4):hover{
+    background-color:blueviolet;
+    color: white;
+}
+.about{
+    width: 50%;
+    padding: 50px 0px;
+    color: white;
+    box-sizing: border-box;
+    background-color: rgb(86, 121, 192);
+    text-align: center;
+}
+.aboutContent h1{
+    padding: 25px 0px;
+    font-weight: 500;
+}
+.aboutContent img{
+    width: 300px;
+    box-sizing: border-box;
+    height: 300px;
+    margin: 5px 0px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.aboutContent p{
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    padding: 0px 30px;
+    text-align: left;
+}
+.second{
+    width: 1300px;
+    height: 735px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.work{
+    width: 50%;
+    text-align: center;
+    background-color: #ddd;
+}
+.workBox{
+    text-align: center;
+    padding: 75px 0px;
+}
+.workBox h1{
+    font-weight: 500;
+}
+.workBox p{
+    padding: 5px 0px;
+}
+.workContent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.workContent img{
+    width:50%;
+    height: 150px;
+    object-fit: cover;
+}
+.resume{
+    padding: 50px 20px;
+    text-align: center;
+    width: 50%;
+    display: table-cell;
+    color: white;
+    box-sizing: border-box;
+    background-color: #607d8b ;
+}
+.resume h1{
+    padding: 10px 0px;
+    font-weight: 500;
+}
+.resume table{
+    text-align: left;
+    border-collapse: collapse;
+    padding: 50px 20px;
+    width: 100%;
+    border: none;
+    border: none;
+}
+.resume th{
+    width: 33%;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border: none;
+}
+.resume p{
+    padding: 15px 0px;
+}
+#resumeLeft{
+    width: 20%;
+    text-align: left;
+}
+.resume td:first-child{
+    padding: 8px 10px;
+    text-align: left;
+}
+tbody tr:nth-child(odd){
+    background-color: white;
+    color: black;
+    margin: 2px 0px;
+    padding: 5px 0px;
+}
+.third{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;
+}
+.swing{
+    color: white;
+    width: 50%;
+    text-align: center;
+    background-color:#2EC4B6;
+}
+.swing h1{
+    padding: 75px 0px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.swing p{
+    padding: 10px 0px;
+}
+.contact{
+    color: white;
+    width: 50%;
+    background-color: rgb(57, 109, 57);
+}
+.contact h1{
+    padding: 75px 20px 10px 40px;
+    font-weight: 500;
+}
+.contact p{
+    padding: 10px 40px;
+}
+.contactBox{
+    position: relative;
+    top: 0px;
+    padding: 20px 20px;
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: 0px 40px;
+    box-sizing: border-box;
+}
+.contactBox input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 0px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+}
+.contactBox input:focus{
+    outline: 2px solid blue;
+    border: none;
+}
+.last{
+    display: flex;
+    justify-content: flex-end;
+}
+.contactBox button{
+    padding: 12px 15px;
+    border: none;
+    display: block;
+    bottom: 0px;
+    background-color: rgb(57, 109, 57);
+    color: white;
+}
+.contactBox button:hover{
+    background-color: #aaa;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 1300px;
+    padding: 30px 15px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
